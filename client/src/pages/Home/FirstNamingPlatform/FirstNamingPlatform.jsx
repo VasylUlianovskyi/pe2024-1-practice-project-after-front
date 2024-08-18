@@ -4,8 +4,6 @@ import CONSTANTS from './../../../constants';
 
 const { STATIC_IMAGES_PATH } = CONSTANTS;
 
-console.log(data);
-
 function FirstNamingPlatform () {
   const mapItems = ({ icon, title, body }, i) => (
     <li key={i}>
