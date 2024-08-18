@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import Header from '../../components/Header/Header';
 import CONSTANTS from '../../constants';
 import SlideBar from '../../components/SlideBar/SlideBar';
-import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
+import NamingContets from './NamingContest/NamingContets';
+import FirtsNamingPlatform from './FirstNamingPlatform/FirstNamingPlatform';
 
 const Home = props => {
   const [index, setIndex] = useState(0);
@@ -59,6 +59,12 @@ const Home = props => {
                 images={carouselConstants.mainSliderImages}
                 carouselType={carouselConstants.MAIN_SLIDER}
               />
+            </div>
+            <div className={styles.namingContestContainer}>
+              <NamingContets />
+            </div>
+            <div className={styles.firstPlatformContainer}>
+              <FirtsNamingPlatform />
             </div>
             <div className={styles.container__description}>
               <h2 className={styles.blueUnderline}>Why Squadhelp?</h2>
