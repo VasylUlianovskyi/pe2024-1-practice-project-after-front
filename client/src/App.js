@@ -20,7 +20,7 @@ import ChatContainer from './components/Chat/ChatComponents/ChatContainer/ChatCo
 import Layout from './pages/Layout/Layout';
 import OnlyNotAuthorizedUserRoute from './components/Routes/OnlyNotAuthorizedUserRoute/OnlyNotAuthorizedUserRoute';
 import PrivateRoute from './components/Routes/PrivateRoute/PrivateRoute';
-import PricingPage from './PricingPage/PricingPage';
+import PricingPage from './pages/PricingPage/PricingPage';
 
 class App extends Component {
   render () {
