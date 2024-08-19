@@ -9,6 +9,7 @@ import Spinner from '../../components/Spinner/Spinner';
 import NamingContets from './NamingContest/NamingContets';
 import FirtsNamingPlatform from './FirstNamingPlatform/FirstNamingPlatform';
 import NamingAgency from './NamingAgency/NamingAgency';
+import BrandNamesColection from './BrandNamesCollection/BrandNamesColection';
 
 const Home = props => {
   const [index, setIndex] = useState(0);
@@ -69,6 +70,9 @@ const Home = props => {
             </div>
             <div className={styles.namingAgencyContainer}>
               <NamingAgency />
+            </div>
+            <div className={styles.BrandNamesContainer}>
+              <BrandNamesColection />
             </div>
             <div className={styles.container__description}>
               <h2 className={styles.blueUnderline}>Why Squadhelp?</h2>

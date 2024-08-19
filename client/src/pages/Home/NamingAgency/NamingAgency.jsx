@@ -22,7 +22,7 @@ function NamingAgency () {
         </p>
       </div>
       <ul className={styles.cardWrapper}>{cardData.map(mapCard)}</ul>
-      <button>
+      <button className={styles.learnBtn}>
         <a href='#'>Learn More</a>
       </button>
     </section>
