@@ -30,7 +30,8 @@ instance.interceptors.response.use(
       history.location.pathname !== '/login' &&
       history.location.pathname !== '/registration' &&
       history.location.pathname !== '/' &&
-      history.location.pathname !== '/pricing'
+      history.location.pathname !== '/pricing' &&
+      history.location.pathname !== 'recommended-for-you'
     ) {
       history.replace('/login');
     }

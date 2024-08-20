@@ -128,6 +128,11 @@ class Header extends React.Component {
             <div className={styles.nav}>
               <ul>
                 <li>
+                  <Link to='/recommended-for-you'>
+                    <span>Recommened for You</span>
+                  </Link>
+                </li>
+                <li>
                   <span>NAME IDEAS</span>
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}menu-down.png`}
